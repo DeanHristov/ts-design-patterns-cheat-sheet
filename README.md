@@ -11,19 +11,19 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 
 ## Included Patterns
 
-| [Creational](https://rb.gy/rta82) | [Structural](https://rb.gy/4r76y) | [Behavioral](https://rb.gy/sa63a) |
-|-----------------------------------|-----------------------------------|-----------------------------------|
-| Factory                           | Decorator                         | Command                           |
-| Abstract Factory                  | Adapter                           | Chain of Responsibility           |
-| Builder                           | Facade                            | Observer Pattern                  |
-| Prototype                         | Bridge                            | Interpreter                       |
-| Singleton                         | Composite                         | Iterator                          |
-|                                   | Flyweight                         | Mediator                          |
-|                                   | Proxy                             | Memento                           |
-|                                   |                                   | State                             |
-|                                   |                                   | Strategy                          |
-|                                   |                                   | Template                          |
-|                                   |                                   | Visitor                           |
+| [Creational](https://rb.gy/rta82)       | [Structural](https://rb.gy/4r76y) | [Behavioral](https://rb.gy/sa63a) |
+|-----------------------------------------|-----------------------------------|-----------------------------------|
+| Factory                                 | Decorator                         | Command                           |
+| Abstract Factory                        | Adapter                           | Chain of Responsibility           |
+| Builder                                 | Facade                            | Observer Pattern                  |
+| Prototype                               | Bridge                            | Interpreter                       |
+| [Singleton](/src/creational/singleton/) | Composite                         | Iterator                          |
+|                                         | Flyweight                         | Mediator                          |
+|                                         | Proxy                             | Memento                           |
+|                                         |                                   | State                             |
+|                                         |                                   | Strategy                          |
+|                                         |                                   | Template                          |
+|                                         |                                   | Visitor                           |
 
 ## Requirements
 

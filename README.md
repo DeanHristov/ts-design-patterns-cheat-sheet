@@ -24,7 +24,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 | Prototype                               | Bridge                              | Interpreter                       |
 | [Singleton](/src/creational/singleton/) | Composite                           | Iterator                          |
 |                                         | Flyweight                           | Mediator                          |
-|                                         | Proxy                               | Memento                           |
+|                                         | [Proxy](/src/structural/Proxy/)     | Memento                           |
 |                                         |                                     | State                             |
 |                                         |                                     | Strategy                          |
 |                                         |                                     | Template                          |

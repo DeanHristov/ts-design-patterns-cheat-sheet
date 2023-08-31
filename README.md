@@ -9,26 +9,26 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 
 **I haven't used any kind of AI tools like ChatGPT, CoPIlot, or any other "crutches" for the mind.**
 
-## Included Patterns
-
-| [Creational](https://rb.gy/rta82)       | [Structural](https://rb.gy/4r76y) | [Behavioral](https://rb.gy/sa63a) |
-|-----------------------------------------|-----------------------------------|-----------------------------------|
-| Factory                                 | Decorator                         | Command                           |
-| Abstract Factory                        | Adapter                           | Chain of Responsibility           |
-| Builder                                 | Facade                            | Observer Pattern                  |
-| Prototype                               | Bridge                            | Interpreter                       |
-| [Singleton](/src/creational/singleton/) | Composite                         | Iterator                          |
-|                                         | Flyweight                         | Mediator                          |
-|                                         | Proxy                             | Memento                           |
-|                                         |                                   | State                             |
-|                                         |                                   | Strategy                          |
-|                                         |                                   | Template                          |
-|                                         |                                   | Visitor                           |
-
 ## Requirements
 
 - [Node](https://nodejs.org/en/) `^16.15.0`
 - [NPM](https://www.npmjs.com/) `^8.5.5`
+
+## Included Patterns
+
+| [Creational](https://rb.gy/rta82)       | [Structural](https://rb.gy/4r76y)   | [Behavioral](https://rb.gy/sa63a) |
+|-----------------------------------------|-------------------------------------|-----------------------------------|
+| Factory                                 | Decorator                           | Command                           |
+| Abstract Factory                        | [Adapter](/src/structural/Adapter/) | Chain of Responsibility           |
+| Builder                                 | Facade                              | Observer Pattern                  |
+| Prototype                               | Bridge                              | Interpreter                       |
+| [Singleton](/src/creational/singleton/) | Composite                           | Iterator                          |
+|                                         | Flyweight                           | Mediator                          |
+|                                         | Proxy                               | Memento                           |
+|                                         |                                     | State                             |
+|                                         |                                     | Strategy                          |
+|                                         |                                     | Template                          |
+|                                         |                                     | Visitor                           |
 
 ## Installation
 

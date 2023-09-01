@@ -21,7 +21,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 | Factory                                 | Decorator                           | Command                           |
 | Abstract Factory                        | [Adapter](/src/structural/Adapter/) | Chain of Responsibility           |
 | Builder                                 | Facade                              | Observer Pattern                  |
-| Prototype                               | Bridge                              | Interpreter                       |
+| Prototype                               | [Bridge](/src/structural/Bridge/)   | Interpreter                       |
 | [Singleton](/src/creational/singleton/) | Composite                           | Iterator                          |
 |                                         | Flyweight                           | Mediator                          |
 |                                         | [Proxy](/src/structural/Proxy/)     | Memento                           |

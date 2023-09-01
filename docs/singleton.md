@@ -32,3 +32,5 @@ export default class Singleton {
   // Rest of the logic starts from here....
 }
 ```
+
+More info can be found on the [wiki](https://en.wikipedia.org/wiki/Singleton_pattern) page.

@@ -1,7 +1,7 @@
 ## Chain of Responsibility Design Pattern
 
 A Chain of Responsibility is a behaviour design pattern that let us transform particular behaviour
-into single stand-alon object called **handler**. Each handler decides whether to proceed further
+into single stand-alone object called **handler**. Each handler decides whether to proceed further
 or reject the request. A simple UML diagram can be seen [here](https://shorturl.at/hzFLV)
 
 ### A Great fit when:
@@ -46,12 +46,12 @@ class CustomHandler extends BaseHandler {
     return 'Error! ....';
   }
 }
-
 ```
 
 ##### Code in action
 
 ```ts
+// CustomHandler = AuthHandler | AccessHandler | OtherHandler
 const handler = new CustomHandler();
 handler
   .setNext(new AuthHandler(...))

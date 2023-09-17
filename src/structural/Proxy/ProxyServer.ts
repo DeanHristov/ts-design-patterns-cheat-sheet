@@ -34,9 +34,9 @@ export default class ProxyServer implements IProxyServer {
     return this.isIPv4InCIDRs(IPV4, this.cidrClients);
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   private doLog(IPV4: string): void {
-    // eslint-disable-next-line no-console
-    console.log(`Logged a new activity from IPv4: ${IPV4}`);
+    //TODO: this.doLog();
   }
 
   private isIPv4InCIDR = (IPv4: string) => (cidr: string) => {

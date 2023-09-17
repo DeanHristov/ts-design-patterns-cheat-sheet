@@ -20,7 +20,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 |-----------------------------------------|-------------------------------------|-------------------------------------------------------------------|
 | Factory                                 | Decorator                           | Command                                                           |
 | Abstract Factory                        | [Adapter](/src/structural/Adapter/) | [Chain of Responsibility](/src/behavioral/ChainOfResponsibility/) |
-| Builder                                 | Facade                              | Observer Pattern                                                  |
+| Builder                                 | Facade                              | [Observer Pattern](/src/behavioral/Observer)                      |
 | Prototype                               | [Bridge](/src/structural/Bridge/)   | Interpreter                                                       |
 | [Singleton](/src/creational/singleton/) | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
 |                                         | Flyweight                           | Mediator                                                          |
@@ -53,6 +53,8 @@ Running the app in **development** mode with [HMR](https://www.npmjs.com/package
 ```bash
 $ npm run start:dev
 ```
+
+**All examples can be seen in the test files(/src/[dirname]/[filename].spec.ts)**
 
 ## Running the Project in production mode.
 

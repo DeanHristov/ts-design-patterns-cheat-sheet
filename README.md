@@ -22,7 +22,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 | Abstract Factory                        | [Adapter](/src/structural/Adapter/) | [Chain of Responsibility](/src/behavioral/ChainOfResponsibility/) |
 | Builder                                 | Facade                              | Observer Pattern                                                  |
 | Prototype                               | [Bridge](/src/structural/Bridge/)   | Interpreter                                                       |
-| [Singleton](/src/creational/singleton/) | Composite                           | Iterator                                                          |
+| [Singleton](/src/creational/singleton/) | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
 |                                         | Flyweight                           | Mediator                                                          |
 |                                         | [Proxy](/src/structural/Proxy/)     | Memento                                                           |
 |                                         |                                     | State                                                             |

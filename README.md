@@ -20,7 +20,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 |-----------------------------------------|-------------------------------------|-------------------------------------------------------------------|
 | Factory                                 | Decorator                           | Command                                                           |
 | Abstract Factory                        | [Adapter](/src/structural/Adapter/) | [Chain of Responsibility](/src/behavioral/ChainOfResponsibility/) |
-| Builder                                 | Facade                              | [Observer Pattern](/src/behavioral/Observer)                      |
+| [Builder](/src/creational/Builder/)     | Facade                              | [Observer Pattern](/src/behavioral/Observer)                      |
 | Prototype                               | [Bridge](/src/structural/Bridge/)   | Interpreter                                                       |
 | [Singleton](/src/creational/singleton/) | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
 |                                         | Flyweight                           | Mediator                                                          |
@@ -106,5 +106,4 @@ All tasks automation are based on [NPM scripts](https://docs.npmjs.com/misc/scri
 
 ## Made by
 
-Author: [D. Hristov](https://dhristov.eu/) | Version: 1.0.0 |
-License: [MIT](https://opensource.org/licenses/MIT)
+Author: [D. Hristov](https://dhristov.eu/) | [Documentation](/docs/)

@@ -106,4 +106,4 @@ All tasks automation are based on [NPM scripts](https://docs.npmjs.com/misc/scri
 
 ## Made by
 
-Author: [D. Hristov](https://dhristov.eu/) | [Documentation](/docs/)
+Author: [D. Hristov](https://dhristov.eu/) | [Documentation](https://github.com/DeanHristov/ts-design-patterns-cheat-sheet/wiki)

@@ -4,7 +4,7 @@ import PepperoniPizza from './PepperoniPizza';
 import ItalianRestaurant from './ItalianRestaurant';
 import VeggiePizza from './VeggiePizza';
 
-describe('Structural -> Bridge pattern', () => {
+describe('Structural -> Bridge design pattern', () => {
   it('Should be able to deliver a Pepperoni pizza from an American restaurant ', () => {
     const outputMessage = `Deliver a pizza (Pepperoni) from American restaurant`;
     const americanRestaurant: AmericanRestaurant = new AmericanRestaurant(

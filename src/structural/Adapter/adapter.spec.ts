@@ -3,7 +3,7 @@ import ClientService from './ClientService';
 import ClientAdapter from './ClientAdapter';
 import ExternalService from './ExternalService';
 
-describe('Structural -> Adapter pattern', () => {
+describe('Structural -> Adapter design pattern', () => {
   it('Should be able to work with miles/h', () => {
     const client: ClientService = new ClientAdapter(new ExternalService());
 

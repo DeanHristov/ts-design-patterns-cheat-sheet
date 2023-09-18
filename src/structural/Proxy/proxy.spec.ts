@@ -2,7 +2,7 @@ import { describe } from '@jest/globals';
 import ProxyServer from './ProxyServer';
 import Server from './Server';
 
-describe('Structural -> Proxy pattern', () => {
+describe('Structural -> Proxy design pattern', () => {
   it('Should be able to retrieve cached result', () => {
     const cidrRange: string[] = ['192.168.32.0/24'];
     const server: ProxyServer = new ProxyServer(cidrRange, new Server());

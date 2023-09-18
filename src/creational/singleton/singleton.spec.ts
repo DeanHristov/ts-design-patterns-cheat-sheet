@@ -1,7 +1,7 @@
 import { describe } from '@jest/globals';
 import Leaderboard from './Leaderboard';
 
-describe('Creational -> Singleton pattern', () => {
+describe('Creational -> Singleton design pattern', () => {
   it('Should always refer to a single object', () => {
     const leaderboard1: Leaderboard = Leaderboard.getInstance();
     const leaderboard2: Leaderboard = Leaderboard.getInstance();

@@ -22,7 +22,7 @@ const secondProduct: IProduct = {
   price: 522.0,
 };
 
-describe('Behaviours ->Iterator pattern', () => {
+describe('Behaviours ->Iterator design pattern', () => {
   it('Should be able to retrieve a first/current item', () => {
     const collection: StoreCollection<IProduct> =
       new StoreCollection<IProduct>();

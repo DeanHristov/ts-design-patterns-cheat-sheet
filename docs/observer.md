@@ -80,7 +80,7 @@ class Observer implements IObserver {
 ```ts
 const subject: Subject = new Subject();
 const observer1: Observer = new Observer(subject);
-const observer2: Observer = new Observer(subject2);
+const observer2: Observer = new Observer(subject);
 
 subject.publish();
 // Output:

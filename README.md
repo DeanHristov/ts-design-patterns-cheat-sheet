@@ -25,7 +25,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 | [Singleton](/src/creational/singleton/) | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
 |                                         | Flyweight                           | Mediator                                                          |
 |                                         | [Proxy](/src/structural/Proxy/)     | Memento                                                           |
-|                                         |                                     | State                                                             |
+|                                         |                                     | [State](/src/behavioral/State)                                    |
 |                                         |                                     | [Strategy](/src/behavioral/Strategy)                              |
 |                                         |                                     | Template                                                          |
 |                                         |                                     | Visitor                                                           |

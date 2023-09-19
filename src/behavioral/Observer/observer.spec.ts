@@ -3,7 +3,7 @@ import Subject from './Subject';
 import Observer from './Observer';
 
 describe('Behaviours -> Observer design pattern', () => {
-  beforeEach(() => jest.resetAllMocks());
+  beforeEach(jest.resetAllMocks);
 
   it('Should be able to notify the observer when change has occurred', () => {
     const subject: Subject = new Subject();

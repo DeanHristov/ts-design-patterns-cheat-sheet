@@ -17,10 +17,10 @@ export default class Leaderboard {
 
   public static getInstance(): Leaderboard {
     if (!Leaderboard.instance) {
-      this.instance = new Leaderboard();
+      Leaderboard.instance = new Leaderboard();
     }
 
-    return this.instance;
+    return Leaderboard.instance;
   }
 
   /**

@@ -26,7 +26,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 |                                         | Flyweight                           | Mediator                                                          |
 |                                         | [Proxy](/src/structural/Proxy/)     | Memento                                                           |
 |                                         |                                     | State                                                             |
-|                                         |                                     | Strategy                                                          |
+|                                         |                                     | [Strategy](/src/behavioral/Strategy)                              |
 |                                         |                                     | Template                                                          |
 |                                         |                                     | Visitor                                                           |
 

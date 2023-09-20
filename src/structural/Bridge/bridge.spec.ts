@@ -35,7 +35,7 @@ describe('Structural -> Bridge Design pattern', () => {
   it('Should be able to deliver a Pepperoni pizza from an Italian restaurant ', () => {
     const outputMessage = 'Deliver a pizza (Pepperoni) from Italian restaurant';
     const italianRestaurant: ItalianRestaurant = new ItalianRestaurant(
-      new PepperoniPizza('Pepperoni',
+      new PepperoniPizza('Pepperoni'),
     );
 
     expect(italianRestaurant.deliver()).toMatch(outputMessage);

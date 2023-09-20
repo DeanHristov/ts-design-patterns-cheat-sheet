@@ -5,14 +5,14 @@ import MacPC from './MacPC';
 
 describe('Creational -> Abstract Factory Design pattern', () => {
   it('Should be able to open a window on Mac PC', () => {
-    const windowsGUI: ApplicationGUI = new ApplicationGUI(new MacPC());
+    const macGUI: ApplicationGUI = new ApplicationGUI(new MacPC());
 
-    expect(windowsGUI.openWindow()).toEqual(`A window Finder is opened`);
+    expect(macGUI.openWindow()).toEqual(`A window Finder is opened`);
   });
   it('Should be able to trigger a click event on Mac PC', () => {
-    const windowsGUI: ApplicationGUI = new ApplicationGUI(new MacPC());
+    const macGUI: ApplicationGUI = new ApplicationGUI(new MacPC());
 
-    expect(windowsGUI.clickOnButton()).toEqual(
+    expect(macGUI.clickOnButton()).toEqual(
       'Trigger click on a "Click me" button',
     );
   });

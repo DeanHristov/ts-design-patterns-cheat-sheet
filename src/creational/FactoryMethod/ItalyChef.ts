@@ -1,5 +1,5 @@
-import ChefCreator, { IBurger } from "./ChefCreator";
-import VeggieBurger from "./VeggieBurger";
+import ChefCreator, { IBurger } from './ChefCreator';
+import VeggieBurger from './VeggieBurger';
 
 // Concrete creator 2
 export default class ItalyChef extends ChefCreator {

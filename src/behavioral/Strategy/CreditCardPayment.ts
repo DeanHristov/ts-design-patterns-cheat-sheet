@@ -1,5 +1,5 @@
-import { IPaymentService } from "./PaymentService";
-import Card from "./Card";
+import { IPaymentService } from './PaymentService';
+import Card from './Card';
 
 // The Concrete strategy 1
 export default class CreditCardPayment implements IPaymentService {

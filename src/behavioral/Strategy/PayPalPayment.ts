@@ -1,5 +1,5 @@
-import { IPaymentService } from "./PaymentService";
-import PayPalUser from "./User";
+import { IPaymentService } from './PaymentService';
+import PayPalUser from './User';
 
 // The Concrete strategy 2
 export default class PayPalPayment implements IPaymentService {

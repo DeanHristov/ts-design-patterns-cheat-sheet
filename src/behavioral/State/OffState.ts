@@ -1,5 +1,5 @@
-import State from "./State";
-import OnState from "./OnState";
+import State from './State';
+import OnState from './OnState';
 
 // Concrete state (1) called OffState
 export default class OffState extends State {

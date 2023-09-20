@@ -20,7 +20,7 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 |-----------------------------------------|-------------------------------------|-------------------------------------------------------------------|
 | Factory                                 | Decorator                           | Command                                                           |
 | Abstract Factory                        | [Adapter](/src/structural/Adapter/) | [Chain of Responsibility](/src/behavioral/ChainOfResponsibility/) |
-| [Builder](/src/creational/Builder/)     | Facade                              | [Observer Pattern](/src/behavioral/Observer)                      |
+| [Builder](/src/creational/Builder/)     | [Facade](/src/structural/Facade/)   | [Observer Pattern](/src/behavioral/Observer)                      |
 | Prototype                               | [Bridge](/src/structural/Bridge/)   | Interpreter                                                       |
 | [Singleton](/src/creational/singleton/) | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
 |                                         | Flyweight                           | Mediator                                                          |

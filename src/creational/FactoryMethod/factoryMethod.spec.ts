@@ -1,6 +1,6 @@
 import { describe, it } from '@jest/globals';
-import ItalyChef from './ItalyChef';
-import AmericanChef from './AmericanChef';
+import ItalyChef from './creators/ItalyChef';
+import AmericanChef from './creators/AmericanChef';
 import { IBurger } from './ChefCreator';
 
 describe('Creational -> Factory method Design pattern', () => {

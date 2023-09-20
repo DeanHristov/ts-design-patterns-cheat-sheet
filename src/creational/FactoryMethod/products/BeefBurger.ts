@@ -1,5 +1,5 @@
 // Concrete product 2
-import { IBurger } from './ChefCreator';
+import { IBurger } from '../ChefCreator';
 
 export default class BeefBurger implements IBurger {
   burgerName: string;

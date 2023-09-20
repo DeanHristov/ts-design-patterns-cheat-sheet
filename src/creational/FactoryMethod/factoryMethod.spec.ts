@@ -3,7 +3,7 @@ import ItalyChef from './ItalyChef';
 import AmericanChef from './AmericanChef';
 import { IBurger } from './ChefCreator';
 
-describe('Creation -> Factory method Design pattern', () => {
+describe('Creational -> Factory method Design pattern', () => {
   it('Should be able to cook a beef burger from an American chef', () => {
     const americanChef: AmericanChef = new AmericanChef();
     const beefBurger: IBurger = americanChef.cookBurger();

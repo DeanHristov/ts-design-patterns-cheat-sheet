@@ -3,8 +3,8 @@ import HouseBuilder from './HouseBuilder';
 import House, { ROOF_TYPES } from './House';
 import Director from './Director';
 
-describe('Creation -> Builder design pattern', () => {
-  it('Should be able to create a custom house', () => {
+describe('Creational -> Builder Design pattern', () => {
+  it('Should be able to create a new custom house', () => {
     const builder: HouseBuilder = new HouseBuilder();
     const defaultHouse: House = builder
       .setRoof(ROOF_TYPES.SALTBOX)

@@ -9,7 +9,7 @@ interface IOrderItem {
   amount: string;
 }
 
-describe('Behaviours -> Chain of Responsibility design pattern', () => {
+describe('Behaviours -> Chain of Responsibility Design pattern', () => {
   const request: IOrderItem = { name: 'Apple', amount: '$25.32' };
 
   it('Should be able to process the order if you are sign-in', () => {

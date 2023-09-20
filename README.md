@@ -16,19 +16,19 @@ use [TypeScript](https://www.typescriptlang.org/) as a programming language.
 
 ## Included Patterns
 
-| [Creational](https://rb.gy/rta82)               | [Structural](https://rb.gy/4r76y)   | [Behavioral](https://rb.gy/sa63a)                                 |
-|-------------------------------------------------|-------------------------------------|-------------------------------------------------------------------|
-| [Factory method](/src/creational/FactoryMethod) | Decorator                           | Command                                                           |
-| Abstract Factory                                | [Adapter](/src/structural/Adapter/) | [Chain of Responsibility](/src/behavioral/ChainOfResponsibility/) |
-| [Builder](/src/creational/Builder/)             | [Facade](/src/structural/Facade/)   | [Observer Pattern](/src/behavioral/Observer)                      |
-| Prototype                                       | [Bridge](/src/structural/Bridge/)   | Interpreter                                                       |
-| [Singleton](/src/creational/singleton/)         | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
-|                                                 | Flyweight                           | Mediator                                                          |
-|                                                 | [Proxy](/src/structural/Proxy/)     | Memento                                                           |
-|                                                 |                                     | [State](/src/behavioral/State)                                    |
-|                                                 |                                     | [Strategy](/src/behavioral/Strategy)                              |
-|                                                 |                                     | Template                                                          |
-|                                                 |                                     | Visitor                                                           |
+| [Creational](https://rb.gy/rta82)                   | [Structural](https://rb.gy/4r76y)   | [Behavioral](https://rb.gy/sa63a)                                 |
+|-----------------------------------------------------|-------------------------------------|-------------------------------------------------------------------|
+| [Factory method](/src/creational/FactoryMethod)     | Decorator                           | Command                                                           |
+| [Abstract Factory](/src/creational/AbstractFactory) | [Adapter](/src/structural/Adapter/) | [Chain of Responsibility](/src/behavioral/ChainOfResponsibility/) |
+| [Builder](/src/creational/Builder/)                 | [Facade](/src/structural/Facade/)   | [Observer Pattern](/src/behavioral/Observer)                      |
+| Prototype                                           | [Bridge](/src/structural/Bridge/)   | Interpreter                                                       |
+| [Singleton](/src/creational/singleton/)             | Composite                           | [Iterator](/src/behavioral/Iterator)                              |
+|                                                     | Flyweight                           | Mediator                                                          |
+|                                                     | [Proxy](/src/structural/Proxy/)     | Memento                                                           |
+|                                                     |                                     | [State](/src/behavioral/State)                                    |
+|                                                     |                                     | [Strategy](/src/behavioral/Strategy)                              |
+|                                                     |                                     | Template                                                          |
+|                                                     |                                     | Visitor                                                           |
 
 ## Installation
 

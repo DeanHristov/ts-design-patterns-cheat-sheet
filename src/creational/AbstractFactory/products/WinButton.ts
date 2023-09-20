@@ -1,4 +1,4 @@
-import { IButton } from "./FactoryCreator";
+import { IButton } from "../FactoryCreator";
 
 // Concrete product 2
 export default class WinButton implements IButton {

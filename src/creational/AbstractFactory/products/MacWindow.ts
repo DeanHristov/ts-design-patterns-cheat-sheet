@@ -1,4 +1,4 @@
-import { IWindow } from "./FactoryCreator";
+import { IWindow } from "../FactoryCreator";
 
 // Concrete product 3
 export default class MacWindow implements IWindow {

@@ -1,7 +1,7 @@
 import { describe, it } from '@jest/globals';
 import ApplicationGUI from './ApplicationGUI';
-import WindowsPC from './WindowsPC';
-import MacPC from './MacPC';
+import WindowsPC from './factories/WindowsPC';
+import MacPC from './factories/MacPC';
 
 describe('Creational -> Abstract Factory Design pattern', () => {
   it('Should be able to open a window on Mac PC', () => {

@@ -1,6 +1,6 @@
-import { IButton, IFactoryCreator, IWindow } from "./FactoryCreator";
-import MacButton from "./MacButton";
-import MacWindow from "./MacWindow";
+import { IButton, IFactoryCreator, IWindow } from "../FactoryCreator";
+import MacButton from "../products/MacButton";
+import MacWindow from "../products/MacWindow";
 
 // Concrete Factory 2
 export default class MacPC implements IFactoryCreator {

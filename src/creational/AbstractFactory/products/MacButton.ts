@@ -1,4 +1,4 @@
-import { IButton } from "./FactoryCreator";
+import { IButton } from "../FactoryCreator";
 
 // Concrete product 1
 export default class MacButton implements IButton {
